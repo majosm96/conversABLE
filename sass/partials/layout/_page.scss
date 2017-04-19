@@ -1,0 +1,27 @@
+.l-group {
+  @include micro-clearfix;
+}
+
+.bg-gray {
+  background-color: #F3F2F2;
+}
+
+.bg-red {
+  background-color: #F25F60;
+}
+
+.bg-isotipo {
+  background-image: url(../img/conversable-isotipo.png);
+  background-repeat: no-repeat;
+  background-position: 103% -39%;
+  background-size: 30%;
+  background-attachment: fixed;
+}
+
+.section-wrap {
+  padding: 6rem 3rem;
+}
+
+.wrapper {
+  background-color: #fff;
+}

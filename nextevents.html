@@ -5,7 +5,8 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConverABLE</title>
-    <link rel="stylesheet" href="/assets/css/all.css?v=3">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
     <script type="text/javascript">
       var arr=['article','aside','footer','header','nav','section','figcaption','figure','main','template'];
@@ -15,26 +16,34 @@
     <meta name="description" content="">
   </head>
   <body>
-    <header class="site-header" role="banner">
-      <div>
-        <a href="">English</a>
-        <a href="">Spanish</a>
-      </div>
-      <img src="" alt="Logo Conversable">
-      <nav>
-        <ul>
-          <li><a href="whyconversable.html">Why Conversable</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="getcertified.html">Get Certified</a></li>
-          <li><a href="nextevents.html">Next Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <div class="wrapper">
+    <div class="l-group bg-gray">
+      <header class="l-group site-header" role="banner">
+        <div class="helper-nav">
+          <ul class="menu helper-nav__items">
+            <li class="helper-nav__item"><a href="" class="helper-nav__action">English</a></li>
+            <li class="helper-nav__item"><a href="" class="helper-nav__action">Spanish</a></li>
+          </ul>
+        </div>
+        <div class="site-nav">
+          <a href="index.html" class="logo"><img src="img/logo.png" alt="Logo Conversable"></a>
+          <nav class="main-menu">
+            <ul class="menu main-menu__items">
+              <li class="main-menu__item"><a class="main-menu__action" href="whyconversable.html">Why Conversable</a></li>
+              <li class="main-menu__item"><a class="main-menu__action" href="services.html">Services</a></li>
+              <li class="main-menu__item"><a class="main-menu__action" href="getcertified.html">Get Certified</a></li>
+              <li class="main-menu__item"><a class="main-menu__action" href="nextevents.html">Next Events</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="l-group section-wrap">
+        <h1 class="h-page">Next Events</h1>
+      </section>
+    </div>
 
     <main role="main">
-      <h2>Next Events</h2>
-
+    <section class="l-group section-wrap">
       <article>
         <img src="" alt="Event Photo">
         <h3>Name</h3>
@@ -50,8 +59,9 @@
         <p><b>Description</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis molestias, labore laboriosam ducimus sequi. Quos ipsam, illum reprehenderit impedit maiores accusamus, facere fugit ratione libero minima repellendus quod, fuga consectetur!</p>
         <a href="">Read more +</a>
       </article>
+      </section>
     </main>
-
+    </div>
     <footer class="site-footer"></footer>
   </body>
 </html>

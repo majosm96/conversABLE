@@ -1,0 +1,21 @@
+.service-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.service-grid__action {
+  color: #000;
+  display: block;
+  padding: 3rem;
+  text-decoration: none;
+}
+
+.service-grid__heading {
+  text-align: center;
+}
+
+.service-grid__item {
+  width: 50%;
+  float: left;
+}

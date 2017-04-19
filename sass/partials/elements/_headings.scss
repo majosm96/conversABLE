@@ -3,11 +3,44 @@
 // Correct the font size and margin on `h1` elements within `section` and
 // `article` contexts in Chrome, Firefox, and Safari.
 h1 {
+  font-size: 3rem;
   margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 h1, 
 h2, 
 h3 {
-    color: #000;
+  color: #000;
+  font-family: $font-family-contrast;
+}
+
+.h-section {
+  text-transform: uppercase;
+}
+
+.h-page {
+    color: inherit;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .25);
+    text-transform: uppercase;
+}
+
+// Borde sobre titulos
+.h-bar:before {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: .75rem;
+}
+
+.h-bar--red:before {
+    background: rgb(240, 94, 116);
 }
