@@ -263,17 +263,35 @@ hr {
   padding: 0; }
 
 .service-grid__action {
-  color: #000;
+  color: #fff;
   display: block;
   padding: 3rem;
   text-decoration: none; }
 
 .service-grid__heading {
+  color: inherit;
   text-align: center; }
 
 .service-grid__item {
   width: 50%;
-  float: left; }
+  float: left;
+  min-height: 290px; }
+
+.service-grid--workshop {
+  background: url(../img/workshops-grid.jpg) no-repeat;
+  background-size: cover; }
+
+.service-grid--coaching {
+  background: url(../img/coaching-grid.jpg) no-repeat;
+  background-size: cover; }
+
+.service-grid--consulting {
+  background: url(../img/consulting-grid.jpg) no-repeat;
+  background-size: cover; }
+
+.service-grid--retreats {
+  background: url(../img/retreats-grid.jpg) no-repeat;
+  background-size: cover; }
 
 .testimonio {
   float: left;
@@ -289,8 +307,8 @@ hr {
 
 .testimonio__avatar {
   float: left;
-  margin-right: 5px;
-  max-width: 120px; }
+  margin-right: 20px;
+  max-width: 90px; }
 
 .testimonio__description {
   font-size: 1.125rem;
@@ -312,11 +330,22 @@ hr {
 .l-group:after, .l-group:after {
   clear: both; }
 
+.bg-hero {
+  background-image: url("../img/hero-home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  height: 40rem; }
+
 .bg-gray {
   background-color: #F3F2F2; }
 
 .bg-red {
   background-color: #F25F60; }
+
+.bg-blue {
+  background-color: #5F9FBF; }
 
 .bg-isotipo {
   background-image: url(../img/conversable-isotipo.png);
@@ -326,7 +355,7 @@ hr {
   background-attachment: fixed; }
 
 .section-wrap {
-  padding: 6rem 3rem; }
+  padding: 9rem 3rem; }
 
 .wrapper {
   background-color: #fff; }

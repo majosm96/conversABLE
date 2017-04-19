@@ -5,17 +5,55 @@
 }
 
 .service-grid__action {
-  color: #000;
+  color: #fff;
   display: block;
   padding: 3rem;
   text-decoration: none;
 }
 
 .service-grid__heading {
+  color: inherit;
   text-align: center;
 }
 
 .service-grid__item {
   width: 50%;
   float: left;
+  min-height: 290px;
+}
+
+.service-grid--workshop {
+  background: url(../img/workshops-grid.jpg) no-repeat;
+  background-size: cover;
+}
+
+.service-grid--coaching {
+  background: url(../img/coaching-grid.jpg) no-repeat;
+  background-size: cover;
+}
+
+.service-grid--consulting {
+  background: url(../img/consulting-grid.jpg) no-repeat;
+  background-size: cover;
+}
+
+.service-grid--retreats {
+  background: url(../img/retreats-grid.jpg) no-repeat;
+  background-size: cover;
+}
+
+.icon-workshop {
+  
+}
+
+.icon-coaching {
+
+}
+
+.icon-consulting {
+
+}
+
+.icon-retreat {
+
 }

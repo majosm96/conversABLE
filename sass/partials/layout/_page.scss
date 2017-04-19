@@ -2,12 +2,25 @@
   @include micro-clearfix;
 }
 
+.bg-hero {
+  background-image: url('../img/hero-home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  height: 40rem;
+}
+
 .bg-gray {
   background-color: #F3F2F2;
 }
 
 .bg-red {
   background-color: #F25F60;
+}
+
+.bg-blue {
+  background-color: #5F9FBF;
 }
 
 .bg-isotipo {
@@ -19,7 +32,7 @@
 }
 
 .section-wrap {
-  padding: 6rem 3rem;
+  padding: 9rem 3rem;
 }
 
 .wrapper {
