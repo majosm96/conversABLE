@@ -7,7 +7,7 @@
 .service-grid__action {
   color: #fff;
   display: block;
-  padding: 3rem;
+  padding: 6rem;
   text-decoration: none;
 }
 
@@ -19,7 +19,7 @@
 .service-grid__item {
   width: 50%;
   float: left;
-  min-height: 290px;
+  min-height: 495px;
 }
 
 .service-grid--workshop {
@@ -42,18 +42,27 @@
   background-size: cover;
 }
 
-.icon-workshop {
-  
+.icon-item:before {
+  content: '';
+  width: 80px;
+  height: 85px;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
-.icon-coaching {
-
+.icon-item--workshop:before {
+  background-image: url(../img/icon-workshop.png);
 }
 
-.icon-consulting {
-
+.icon-item--coaching:before {
+  background-image: url(../img/icon-coaching.png);
 }
 
-.icon-retreat {
+.icon-item--consulting:before {
+  background-image: url(../img/icon-consulting.png);
+}
 
+.icon-item--retreat:before {
+  background-image: url(../img/icon-retreats.png);
 }
