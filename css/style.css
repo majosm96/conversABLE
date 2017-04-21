@@ -158,16 +158,21 @@ p {
 
 a {
   background-color: transparent;
+  border-bottom: 2px solid #23b1a6;
+  color: #000;
+  font-weight: bold;
   -webkit-text-decoration-skip: objects;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-  text-decoration: underline; }
+  text-decoration: none; }
 
 a:active,
 a:hover {
   outline-width: 0; }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
+  border: 0;
   text-decoration: none; }
 
 th,
@@ -222,10 +227,17 @@ hr {
   padding: 0; }
 
 .logo {
+  border-bottom: 0;
   float: left; }
   .logo img {
     display: block;
     width: 250px; }
+
+.intro-h {
+  margin-bottom: 0; }
+
+.intro-leading {
+  font-size: 1.5rem; }
 
 .helper-nav {
   padding: .25em 1rem;
@@ -238,8 +250,10 @@ hr {
     clear: both; }
 
 .helper-nav__action {
+  border-bottom: 0;
   color: #000;
   display: block;
+  font-weight: normal;
   padding: 2px 4px;
   text-decoration: none; }
 
@@ -256,6 +270,7 @@ hr {
 
 .main-menu__action {
   color: inherit;
+  border-bottom: 0;
   display: block;
   padding: 4px 16px;
   text-decoration: none; }
@@ -271,6 +286,13 @@ hr {
 
 .main-menu__items--inverted {
   color: #fff; }
+
+.leads-grid {
+  margin: 0 auto;
+  max-width: 1400px; }
+
+.leads-grid__wrap {
+  overflow: hidden; }
 
 .leads-grid__item {
   float: left;
@@ -290,6 +312,37 @@ hr {
 .leads-grid__subt,
 .leads-grid__desc {
   margin-bottom: .5rem; }
+
+.team-grid {
+  margin: 0 auto;
+  max-width: 1400px; }
+
+.team-grid__item {
+  overflow: hidden; }
+
+.team-grid__photo {
+  width: 30%;
+  float: left;
+  position: relative;
+  z-index: 1; }
+
+.team-grid__info {
+  width: 75%;
+  padding: 3rem;
+  background: #fff;
+  float: right;
+  position: relative;
+  z-index: 2;
+  top: -200px;
+  border: 0.0625rem solid #E2EBF1; }
+
+.team-grid__title {
+  font-size: 1.5rem;
+  margin-bottom: 0; }
+
+.team-grid__subt {
+  color: #797878;
+  text-transform: uppercase; }
 
 .service-outer {
   padding-top: 40%;
@@ -318,6 +371,7 @@ hr {
   padding: 0; }
 
 .service-grid__action {
+  border-bottom: 0;
   color: #fff;
   display: block;
   padding: 6rem;
@@ -442,6 +496,10 @@ hr {
 
 .section-wrap {
   padding: 9rem 3rem; }
+
+.section-intro {
+  margin-bottom: 6rem;
+  text-align: center; }
 
 .section-wrap--tight {
   padding-bottom: 3rem;

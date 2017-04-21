@@ -1,5 +1,10 @@
 .leads-grid {
+  margin: 0 auto;
+  max-width: 1400px;
+}
 
+.leads-grid__wrap {
+  overflow: hidden;
 }
 
 .leads-grid__item {

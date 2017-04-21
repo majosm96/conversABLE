@@ -3,10 +3,13 @@
 // 3. Remove the unwanted box around FAB buttons More info: http://goo.gl/IPwKi
 a {
     background-color: transparent; // 1
+    border-bottom: 2px solid rgb(35, 177, 166);
+    color: #000;
+    font-weight: bold;
     -webkit-text-decoration-skip: objects; // 2
     -webkit-tap-highlight-color: transparent; // 3
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 // Remove the outline on focused links when they are also active or hovered
@@ -16,6 +19,8 @@ a:hover {
     outline-width: 0;
 }
 
-a:hover, a:focus {
+a:hover, 
+a:focus {
+    border: 0;
     text-decoration: none;
 }

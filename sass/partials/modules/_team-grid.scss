@@ -1,0 +1,36 @@
+.team-grid {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.team-grid__item {
+  overflow: hidden;
+}
+
+.team-grid__photo {
+  width: 30%;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+
+.team-grid__info {
+  width: 75%;
+  padding: 3rem;
+  background: #fff;
+  float: right;
+  position: relative;
+  z-index: 2;
+  top: -200px;
+  border: 0.0625rem solid #E2EBF1;
+}
+
+.team-grid__title {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.team-grid__subt {
+  color: #797878;
+  text-transform: uppercase;
+}
