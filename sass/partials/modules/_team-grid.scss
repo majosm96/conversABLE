@@ -4,30 +4,45 @@
 }
 
 .team-grid__item {
-  overflow: hidden;
+  @include micro-clearfix;
+  margin-bottom: 6rem;
+  position: relative;
 }
 
 .team-grid__photo {
-  width: 30%;
+  width: 60%;
   float: left;
   position: relative;
   z-index: 1;
+  display: block;
 }
 
 .team-grid__info {
-  width: 75%;
-  padding: 3rem;
+  width: 34%;
+  padding: 2rem;
   background: #fff;
-  float: right;
-  position: relative;
+  right: 12rem;
+  position: absolute;
   z-index: 2;
-  top: -200px;
+  top: -1.5rem;
   border: 0.0625rem solid #E2EBF1;
 }
 
 .team-grid__title {
   font-size: 1.5rem;
   margin-bottom: 0;
+}
+
+.team-grid__desc {
+  float: left;
+  width: 75%;
+  overflow: hidden;
+  background: #fff;
+  padding: 3rem;
+  margin-top: -65px;
+  position: relative;
+  z-index: 3;
+  margin-left: 80px;
 }
 
 .team-grid__subt {
