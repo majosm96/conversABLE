@@ -420,7 +420,9 @@ hr {
   color: #fff; }
 
 .bg-gray {
-  background-color: #F3F2F2; }
+  background: url(../img/default2.jpg) fixed;
+  background-color: #F3F2F2;
+  color: #fff; }
 
 .bg-red {
   background-color: #F25F60; }
