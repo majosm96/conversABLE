@@ -419,10 +419,13 @@ hr {
   background: url(../img/patron-4.jpg) fixed;
   color: #fff; }
 
-.bg-gray {
+.bg-pattern-gray {
   background: url(../img/default2.jpg) fixed;
   background-color: #F3F2F2;
   color: #fff; }
+
+.bg-gray {
+  background-color: #F3F2F2; }
 
 .bg-red {
   background-color: #F25F60; }
