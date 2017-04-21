@@ -62,9 +62,21 @@ h3 {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #000;
   font-family: "Montserrat", sans-serif; }
+
+.h-h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25rem; }
+  .h-h4:before, .h-h4:after {
+    content: "\2014\2014";
+    color: #a6357f;
+    letter-spacing: -3px;
+    letter-spacing: -.3rem;
+    padding: 0 .8rem 0 .4rem; }
 
 .h-section {
   text-transform: uppercase; }
@@ -140,6 +152,9 @@ sup {
 
 q {
   font-style: italic; }
+
+p {
+  font-size: 1.25rem; }
 
 a {
   background-color: transparent;
@@ -257,6 +272,25 @@ hr {
 .main-menu__items--inverted {
   color: #fff; }
 
+.leads-grid__item {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 1rem; }
+
+.leads-grid__title {
+  margin-bottom: 0; }
+
+.leads-grid__photo {
+  margin-bottom: 1.5rem; }
+
+.leads-grid__subt {
+  color: #797878; }
+
+.leads-grid__subt,
+.leads-grid__desc {
+  margin-bottom: .5rem; }
+
 .service-grid {
   list-style: none;
   margin: 0;
@@ -344,6 +378,10 @@ hr {
 .site-nav {
   padding: .25em 1rem; }
 
+.l-content {
+  margin: 0 auto;
+  width: 65%; }
+
 .l-group:before, .l-group:after {
   content: " ";
   display: table; }
@@ -357,6 +395,10 @@ hr {
   background-size: cover;
   color: #fff;
   height: 40rem; }
+
+.bg-pattern-4 {
+  background: url(../img/patron-4.jpg) fixed;
+  color: #fff; }
 
 .bg-gray {
   background-color: #F3F2F2; }
@@ -376,6 +418,10 @@ hr {
 
 .section-wrap {
   padding: 9rem 3rem; }
+
+.section-wrap--tight {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
 
 .wrapper {
   background-color: #fff; }

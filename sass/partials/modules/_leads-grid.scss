@@ -1,0 +1,27 @@
+.leads-grid {
+
+}
+
+.leads-grid__item {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.leads-grid__title {
+  margin-bottom: 0;
+}
+
+.leads-grid__photo {
+  margin-bottom: 1.5rem;
+}
+
+.leads-grid__subt {
+  color: #797878;
+}
+
+.leads-grid__subt,
+.leads-grid__desc {
+  margin-bottom: .5rem;
+}
