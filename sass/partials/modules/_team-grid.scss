@@ -20,15 +20,25 @@
 .team-grid__info {
   width: 34%;
   padding: 2rem;
-  background: #fff;
+  background: #762455;
   right: 12rem;
   position: absolute;
   z-index: 2;
   top: -1.5rem;
-  border: 0.0625rem solid #E2EBF1;
+  box-shadow: -20px 20px 0 rgba(255, 255, 255, 1);
+
+  a {
+    border-bottom-color: #cca7bd;
+    color: #fff;
+  }
+}
+
+.team-grid__item:nth-child(even) .team-grid__info {
+  background-color: lighten(#762455, 10)
 }
 
 .team-grid__title {
+  color: #fff;
   font-size: 1.5rem;
   margin-bottom: 0;
 }
@@ -46,6 +56,15 @@
 }
 
 .team-grid__subt {
-  color: #797878;
+  color: #cca7bd;
   text-transform: uppercase;
+}
+
+.team-grid__item--no-photo {
+  .team-grid__desc {
+    margin-top: -35px;
+  }
+  .team-grid__info {
+    position: static;
+  }
 }
