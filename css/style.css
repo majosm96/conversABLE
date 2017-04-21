@@ -291,6 +291,27 @@ hr {
 .leads-grid__desc {
   margin-bottom: .5rem; }
 
+.service-outer {
+  padding-top: 40%;
+  position: relative;
+  width: 100%; }
+
+.row {
+  bottom: 0;
+  left: 0;
+  list-style-image: none;
+  list-style: none;
+  margin: 0 0 30px;
+  padding-left: 0;
+  right: 0;
+  top: 0;
+  position: absolute; }
+
+.storyboard-comp {
+  float: left;
+  position: relative;
+  height: 100%; }
+
 .service-grid {
   list-style: none;
   margin: 0;
@@ -307,25 +328,23 @@ hr {
   text-align: center; }
 
 .service-grid__item {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 50%;
-  float: left;
-  min-height: 495px; }
+  float: left; }
 
 .service-grid--workshop {
-  background: url(../img/workshops-grid.jpg) no-repeat;
-  background-size: cover; }
+  background-image: url(../img/workshops-grid.jpg); }
 
 .service-grid--coaching {
-  background: url(../img/coaching-grid.jpg) no-repeat;
-  background-size: cover; }
+  background-image: url(../img/coaching-grid.jpg); }
 
 .service-grid--consulting {
-  background: url(../img/consulting-grid.jpg) no-repeat;
-  background-size: cover; }
+  background-image: url(../img/consulting-grid.jpg); }
 
 .service-grid--retreats {
-  background: url(../img/retreats-grid.jpg) no-repeat;
-  background-size: cover; }
+  background-image: url(../img/retreats-grid.jpg); }
 
 .icon-item:before {
   content: '';
