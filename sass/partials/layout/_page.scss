@@ -1,0 +1,66 @@
+.l-content {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.l-group {
+  @include micro-clearfix;
+}
+
+.bg-hero {
+  background-image: url('../img/hero-home.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  height: 40rem;
+}
+
+.bg-pattern-4 {
+  background: url(../img/patron-4.jpg) fixed;
+  color: #fff;
+}
+
+.bg-pattern-gray {
+  background: url(../img/default2.jpg) fixed;
+  background-color: #F3F2F2;
+  color: #fff;
+}
+
+.bg-gray {
+  background-color: #F3F2F2;
+}
+
+.bg-red {
+  background-color: #F25F60;
+}
+
+.bg-blue {
+  background-color: #5F9FBF;
+}
+
+.bg-isotipo {
+  background-image: url(../img/conversable-isotipo.png);
+  background-repeat: no-repeat;
+  background-position: 103% -39%;
+  background-size: 30%;
+  background-attachment: fixed;
+}
+
+.section-wrap {
+  padding: 9rem 3rem;
+}
+
+.section-intro {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.section-wrap--tight {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.wrapper {
+  background-color: #fff;
+}
