@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 html {
-  font: 1em/1.5 "Raleway", sans-serif;
+  font: 1em/1.5 "Nunito", sans-serif;
   width: 100%;
   height: 100%;
   background-color: #000;
@@ -79,6 +79,7 @@ h4 {
     padding: 0 .8rem 0 .4rem; }
 
 .h-section {
+  text-align: center;
   text-transform: uppercase; }
 
 .h-page {
@@ -160,7 +161,7 @@ a {
   background-color: transparent;
   border-bottom: 2px solid #23b1a6;
   color: #000;
-  font-weight: bold;
+  font-weight: 700;
   -webkit-text-decoration-skip: objects;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -302,7 +303,7 @@ hr {
 
 .leads-grid__item {
   float: left;
-  width: 25%;
+  width: 33%;
   text-align: center;
   padding: 1rem; }
 
@@ -313,7 +314,8 @@ hr {
   margin-bottom: 1.5rem; }
 
 .leads-grid__subt {
-  color: #797878; }
+  color: #797878;
+  text-transform: uppercase; }
 
 .leads-grid__subt,
 .leads-grid__desc {
@@ -342,18 +344,18 @@ hr {
 .team-grid__info {
   width: 34%;
   padding: 2rem;
-  background: #762455;
+  background: #22a295;
   right: 12rem;
   position: absolute;
   z-index: 2;
   top: -1.5rem;
   box-shadow: -20px 20px 0 white; }
   .team-grid__info a {
-    border-bottom-color: #cca7bd;
+    border-bottom-color: #fff;
     color: #fff; }
 
 .team-grid__item:nth-child(even) .team-grid__info {
-  background-color: #9d3071; }
+  background-color: #29a6ba; }
 
 .team-grid__title {
   color: #fff;
@@ -372,7 +374,7 @@ hr {
   margin-left: 80px; }
 
 .team-grid__subt {
-  color: #cca7bd;
+  color: #000;
   text-transform: uppercase; }
 
 .team-grid__item--no-photo .team-grid__desc {
@@ -412,10 +414,12 @@ hr {
   display: block;
   height: 100%;
   padding: 3rem;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 300; }
 
 .service-grid__heading {
   color: inherit;
+  margin-top: 3rem;
   text-align: center; }
 
 .service-grid__item {
