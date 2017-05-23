@@ -228,6 +228,17 @@ hr {
   margin: 0;
   padding: 0; }
 
+.main-btn {
+  display: block;
+  width: 10rem;
+  height: 3rem;
+  background-color: #20a296;
+  color: #fff;
+  padding-top: 12px;
+  font-weight: 300;
+  margin: 0 auto;
+  border-bottom: none; }
+
 .logo {
   border-bottom: 0;
   float: left; }
@@ -501,6 +512,17 @@ hr {
 .hello-friend__title {
   color: #fff;
   margin-bottom: 0; }
+
+.certification-wrap {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center; }
+
+.certification-bg {
+  background-color: #f3f1f2; }
+
+.btn-certification {
+  margin-top: 43px; }
 
 .site-header {
   margin-bottom: 1.5rem;
