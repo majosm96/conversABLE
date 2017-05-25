@@ -1,0 +1,28 @@
+.hello-friend {
+    background: url(../img/bg-footer.jpg) repeat-x;
+    padding: 3rem 0;
+}
+
+.hello-friend__wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hello-friend__img {
+    float: left;
+    max-width: 150px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.hello-friend_desc {
+    color: #fff;
+    float: right;
+}
+
+.hello-friend__title {
+    color: #fff;
+    margin-bottom: 0;
+}
