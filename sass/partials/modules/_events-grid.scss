@@ -1,0 +1,60 @@
+.events-grid {
+  border: .5rem solid #F3F2F2;
+  display: inline-block;
+  float: left;
+  padding: 1.5rem;
+  margin: .6rem;
+  min-height: 300px;
+  text-align: center;
+
+  h4,
+  h5 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: $font-family-base, sans-serif;
+    margin: 0;
+  }
+
+  h5 {
+    font-weight: initial;
+  }
+
+  a {
+    color: #fff;
+    font-weight: initial;
+    padding: 0;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+.event-item:nth-child(1) {
+  background: #9cdce5;
+  width: 46%;
+}
+
+.event-item:nth-child(2) {
+  background: #5cc9c0;
+  width: 23%;
+
+  ::before {
+    background-image: url("../img/icon-workshop.png")
+  }
+}
+
+.event-item:nth-child(3) {
+  background: #bf639f;
+  width: 23%;
+
+  ::before {
+    background-image: url("../img/icon-retreats.png")
+  }
+}
+
+.btn-events {
+  border: .1rem solid #fff;
+  padding: 1rem;
+}
