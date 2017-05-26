@@ -17,44 +17,63 @@
 
   h5 {
     font-weight: initial;
+    margin: 10px;
   }
 
   a {
     color: #fff;
     font-weight: initial;
-    padding: 0;
   }
 
   p {
     font-size: 1rem;
-    margin: 0;
+    margin-bottom: 20px ;
   }
 }
 
-.event-item:nth-child(1) {
-  background: #9cdce5;
+.event-item_certified {
+  background: #5f9fc0;
   width: 46%;
+
+  .btn-events {
+    color: #000;
+  }
 }
 
-.event-item:nth-child(2) {
-  background: #5cc9c0;
+.event-item_workshop {
+  background: #21a295;
   width: 23%;
 
   ::before {
     background-image: url("../img/icon-workshop.png")
   }
+
+  .btn-events {
+    color: #000;
+  }
 }
 
-.event-item:nth-child(3) {
-  background: #bf639f;
+.event-item_consulting {
+  background: $conversable-violet-light;
   width: 23%;
 
   ::before {
-    background-image: url("../img/icon-retreats.png")
+    background-image: url("../img/icon-consulting.png")
+  }
+
+  .btn-events {
+    color: #000;
   }
 }
 
 .btn-events {
+  background-color: #fff;
+  border: none;
+  padding: .6rem;
+}
+
+.btn-events:hover {
+  background-color: transparent;
   border: .1rem solid #fff;
-  padding: 1rem;
+  color: #fff;
 }
