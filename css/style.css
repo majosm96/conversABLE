@@ -206,25 +206,6 @@ img {
 svg:not(:root) {
   overflow: hidden; }
 
-.btn-fill {
-  background-color: #21a295;
-  padding: 1.5em 2.5em;
-  color: #fff;
-  border: none; }
-
-.btn-fill:hover {
-  background-color: #29a6ba; }
-
-.btn-invert {
-  border: 2px solid #21a295;
-  color: #23b1a6;
-  padding: 1em 2.5em; }
-
-.btn-invert:hover {
-  background-color: #29a6ba;
-  padding: 1em 2.5em;
-  color: #fff; }
-
 h1,
 h2,
 h3,
@@ -309,19 +290,32 @@ hr {
   margin: 0;
   padding: 0; }
 
-.main-btn {
-  display: block;
-  width: 150px;
-  height: 50px;
-  background-color: #20a296;
+.btn-fill {
+  background-color: #21a295;
+  padding: 1.5em 2.5em;
   color: #fff;
-  padding-top: 12px;
-  font-weight: 300;
-  border-bottom: none; }
+  border: none; }
+
+.btn-fill:hover {
+  background-color: #29a6ba; }
+
+.btn-invert {
+  border: 2px solid #21a295;
+  color: #23b1a6;
+  padding: 1em 2.5em; }
+
+.btn-invert:hover {
+  background-color: #29a6ba;
+  padding: 1em 2.5em;
+  color: #fff; }
 
 .btn-certification {
-  margin: 0 auto;
-  margin-top: 43px; }
+  width: 170px;
+  height: 70px;
+  display: block; }
+
+.pdf {
+  text-align: center; }
 
 .logo {
   border-bottom: 0;
@@ -684,13 +678,48 @@ hr {
   font-weight: bold;
   font-size: 1.5rem; }
 
+.lastest-posts {
+  width: 90%;
+  margin: 0 auto; }
+  .lastest-posts img {
+    width: 80%;
+    padding: 10px; }
+  .lastest-posts h3, .lastest-posts h4 {
+    margin: 0; }
+  .lastest-posts span {
+    color: #bf639f; }
+
+.lastest-post_wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.lastest-post {
+  width: 48%;
+  display: inline-block;
+  margin: 5px;
+  padding: 15px; }
+
+.h-certification {
+  text-transform: uppercase;
+  padding-bottom: 40px; }
+
 .certification-wrap {
   width: 50%;
-  margin: 0 auto;
-  text-align: center; }
+  margin: 0 auto; }
+  .certification-wrap a, .certification-wrap h3, .certification-wrap h4, .certification-wrap h5, .certification-wrap p {
+    margin: 0 auto; }
+  .certification-wrap a, .certification-wrap h3, .certification-wrap h4, .certification-wrap h5 {
+    text-align: center; }
 
 .certification-bg {
   background-color: #f3f1f2; }
+
+.certification-descrip {
+  margin: 25px 0 100px 0; }
+  .certification-descrip h4 {
+    text-align: justify;
+    margin: 30px 0 30px 0; }
 
 .site-header {
   margin-bottom: 1.5rem;
