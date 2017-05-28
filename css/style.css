@@ -449,9 +449,9 @@ hr {
     flex-grow: 0; }
 
 .team-grid__photo-wrap {
-  width: 300px;
+  width: 200px;
   float: left;
-  margin-right: 1.5rem; }
+  margin-right: 3rem; }
 
 .team-grid__photo {
   height: auto;
@@ -464,7 +464,7 @@ hr {
     font-weight: 300; }
 
 .team-grid__details {
-  font-size: 1rem;
+  font-size: .75rem;
   margin-bottom: 0; }
 
 .team-grid__title {
@@ -479,7 +479,7 @@ hr {
   margin-bottom: .75rem; }
 
 .service-outer {
-  padding-top: 40%;
+  padding-top: 30%;
   position: relative;
   width: 100%; }
 
@@ -494,11 +494,6 @@ hr {
   top: 0;
   position: absolute; }
 
-.storyboard-comp {
-  float: left;
-  position: relative;
-  height: 100%; }
-
 .service-grid {
   list-style: none;
   margin: 0;
@@ -509,12 +504,13 @@ hr {
   color: #fff;
   display: block;
   height: 100%;
-  padding: 3rem;
+  padding: 3rem 6rem;
   text-decoration: none;
   font-weight: 300; }
 
 .service-grid__heading {
   color: inherit;
+  font-size: 1.75rem;
   margin-top: 3rem;
   text-align: center; }
 
@@ -523,7 +519,12 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
-  float: left; }
+  float: left;
+  position: relative;
+  height: 100%; }
+
+.service-grid__content {
+  font-size: 1rem; }
 
 .service-grid--workshop {
   background-image: url(../img/workshops-grid.jpg); }
@@ -538,9 +539,10 @@ hr {
   background-image: url(../img/retreats-grid.jpg); }
 
 .icon-item:before {
+  background-size: cover;
   content: '';
-  width: 80px;
-  height: 85px;
+  width: 60px;
+  height: 60px;
   display: block;
   background-repeat: no-repeat;
   margin: 0 auto; }
