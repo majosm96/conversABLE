@@ -314,9 +314,6 @@ hr {
   height: 70px;
   display: block; }
 
-.pdf {
-  text-align: center; }
-
 .logo {
   border-bottom: 0;
   float: left; }
@@ -701,23 +698,20 @@ hr {
   padding: 15px; }
 
 .h-certification {
-  text-transform: uppercase;
   padding-bottom: 40px; }
 
 .certification-wrap {
   width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   .certification-wrap a, .certification-wrap h3, .certification-wrap h4, .certification-wrap h5, .certification-wrap p {
     margin: 0 auto; }
-  .certification-wrap a, .certification-wrap h3, .certification-wrap h4, .certification-wrap h5 {
-    text-align: center; }
-
-.certification-bg {
-  background-color: #f3f1f2; }
+  .certification-wrap p {
+    text-align: justify; }
 
 .certification-descrip {
   margin: 25px 0 100px 0; }
-  .certification-descrip h4 {
+  .certification-descrip h4, .certification-descrip a {
     text-align: justify;
     margin: 30px 0 30px 0; }
 
