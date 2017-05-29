@@ -1,26 +1,32 @@
 .service-content {
-	display: inline-block;
-	width: 49%;
+	float: left;
+	width: 45%;
+}
+
+.service-info {
+	margin-bottom: 6rem;
+	overflow: hidden;
 }
 
 .sevice-events {
-	margin-top: 1.5em;
+	overflow: hidden;
 }
 
 .service-info video, 
 .service-info img {
+	float: right;
 	width: 50%;
 }
 
-.sevice-events img,
-.sevice-events-btn {
-	display: inline-block;
+.sevice-events img {
+	float: left;
+	margin-right: 3rem;
 	width: 25%;
 }
 
 .sevice-events-content {
-	display: inline-block;
-	width: 48%;
+    float: left;
+    width: 50%;
 }
 
 .sevice-events-content strong {
