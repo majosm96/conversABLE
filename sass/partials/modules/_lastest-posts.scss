@@ -1,24 +1,19 @@
-.lastest-posts {
+.lastest-post-wrap {
   width: 90%;
   margin: 0 auto;
 
   img {
-  	width: 80%;
-  	padding: 10px;
+    width: 77%;
+    padding: 10px;
   }
 
-  h3, h4 {
-  	margin: 0;
+  h3,
+  h4 {
+    margin: 0;
   }
   span {
-  	color: $conversable-violet-light;
+    color: $conversable-violet-light;
   }
-}
-
-.lastest-post_wrap {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around
 
 }
 
@@ -27,5 +22,10 @@
 	display: inline-block;
 	margin: 5px;
 	padding: 15px;
+  background-color: $main-gray;
+
+  a {
+    border: none;
+  }
 }
 

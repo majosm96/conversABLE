@@ -1,5 +1,4 @@
-.h-certification {
-	// text-transform: uppercase;
+.certification-h {
 	padding-bottom: 40px;
 }
 
@@ -8,23 +7,22 @@
 	margin: 0 auto;
 	text-align: center;
 
-	a, h3, h4, h5, p {
+	a,
+	h3, 
+	h4 {
 		margin: 0 auto;
 	}
 
 	p {
+		margin-bottom: none;
 		text-align: justify;
 	}	
 }
 
 .certification-descrip {
-	margin: 25px 0 100px 0;
-	h4, a {
-		text-align: justify;
-		margin: 30px 0 30px 0;
-	}
+	margin: 50px 0 50px 0;
 }
 
-// .pdf-certification {
-// 	padding: 25px 0 100px 0;
-// }
+.certification-require {
+	margin-bottom: 50px;
+}
