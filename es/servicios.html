@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="l-group bg-pattern-4 ">
+      <div class="l-group bg-pattern-turquoise">
         <header class="l-group site-header" role="banner">
           <div class="helper-nav">
             <ul class="menu helper-nav__items">
@@ -44,25 +44,24 @@
 
       <main role="main">    
         <div id="stickyMenu" class="sticky-menu">
+          <div class="sticky-menu__wrap">
           <a href="#serviceWorkshop" class="sticky-menu-item sticky-menu-workshop">
             <div class="sticky-icon icon-workshop-black"></div>
-            <h4>Talleres</h4>
+            <h4 class="sticky-menu__item">Workshops</h4>
           </a>  
-
           <a href="#serviceConsultancies" class="sticky-menu-item sticky-menu-consultancies">
             <div class="sticky-icon icon-consultancies-black"></div>
-            <h4>Consultoría</h4>
+            <h4 class="sticky-menu__item">Consultancies</h4>
           </a> 
-
           <a href="#serviceCoaching" class="sticky-menu-item sticky-menu-coaching">
             <div class="sticky-icon icon-coaching-black"></div>
-            <h4>Coaching</h4>
+            <h4 class="sticky-menu__item">Coaching</h4>
           </a> 
-
           <a href="#serviceRetreats" class="sticky-menu-item sticky-menu-retreats">
             <div class="sticky-icon icon-retreats-black"></div>
-            <h4>Retiros</h4>
+            <h4 class="sticky-menu__item">Retreats</h4>
           </a>
+          </div>
         </div>    
         <section id="serviceWorkshop" class="l-group section-wrap">        
           <div class="service-info">
@@ -73,7 +72,10 @@
                 <a class="btn-invert" href="">Request for my company</a>
               </div>              
             </div>           
-            <video src="../video/Video IFAD.mp4" controls=""></video>
+            <video controls poster="../img/poster.png">
+              <source src="../video/conversable.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
             
           </div>
 
@@ -108,7 +110,10 @@
                 <a class="btn-invert" href="">Request for my company</a>
               </div>              
             </div>           
-            <video src="../video/Video HB Cultura de Paz.mp4" controls=""></video>
+            <video controls poster="../img/poster.png">
+              <source src="../video/conversable.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
             
           </div>
 
@@ -163,6 +168,6 @@
       </main>
     </div>
     <footer class="site-footer"></footer>
-    <script src="js/sticky-menu.js"></script>
+    <script src="../js/sticky-menu.js"></script>
   </body>
 </html>
