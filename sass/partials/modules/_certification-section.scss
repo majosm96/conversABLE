@@ -8,21 +8,43 @@
 	text-align: center;
 
 	a,
-	h3, 
-	h4 {
-		margin: 0 auto;
+	h2, 
+	h3 {
+		text-align: center;
 	}
 
-	p {
-		margin-bottom: none;
-		text-align: justify;
-	}	
+	h3 {
+		text-transform: uppercase;
+	}
 }
 
 .certification-descrip {
-	margin: 50px 0 50px 0;
+	margin: 50px 0;
+
+	p {
+		text-align: left;
+	}
+
+	p:nth-child(1) {
+		margin-bottom: 0;
+	}
 }
 
-.certification-require {
-	margin-bottom: 50px;
+.certification-p--bold {
+	font-weight: $font-family-base-bold-weight;
+	margin: 0;
+}
+
+.certification-info {
+	text-align: center;
+	p {
+		margin: 0;
+		text-align: center;
+		font-weight: $font-family-base-bold-weight;
+	}
+}
+
+.certification-required {
+	margin: 20px 0;
+	text-align: left;
 }
