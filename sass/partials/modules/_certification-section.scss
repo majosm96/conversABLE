@@ -7,14 +7,12 @@
 	margin: 0 auto;
 	text-align: center;
 
-	a,
-	h2, 
-	h3 {
+	a {
 		text-align: center;
 	}
 
-	h3 {
-		text-transform: uppercase;
+	h2 {
+		margin: 0;
 	}
 }
 
@@ -30,7 +28,7 @@
 	}
 }
 
-.certification-p--bold {
+.certification__p--bold {
 	font-weight: $font-family-base-bold-weight;
 	margin: 0;
 }

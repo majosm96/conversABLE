@@ -716,12 +716,10 @@ hr {
   width: 50%;
   margin: 0 auto;
   text-align: center; }
-  .certification-wrap a,
-  .certification-wrap h2,
-  .certification-wrap h3 {
+  .certification-wrap a {
     text-align: center; }
-  .certification-wrap h3 {
-    text-transform: uppercase; }
+  .certification-wrap h2 {
+    margin: 0; }
 
 .certification-descrip {
   margin: 50px 0; }
@@ -730,7 +728,7 @@ hr {
   .certification-descrip p:nth-child(1) {
     margin-bottom: 0; }
 
-.certification-p--bold {
+.certification__p--bold {
   font-weight: 700;
   margin: 0; }
 
