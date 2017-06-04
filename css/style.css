@@ -712,6 +712,10 @@ hr {
 .certification-h {
   padding-bottom: 40px; }
 
+.certification__h3--resize {
+  font-size: 2.3rem;
+  text-transform: uppercase; }
+
 .certification-wrap {
   width: 50%;
   margin: 0 auto;
@@ -728,7 +732,7 @@ hr {
   .certification-descrip p:nth-child(1) {
     margin-bottom: 0; }
 
-.certification__p--bold {
+.certification__text--bold {
   font-weight: 700;
   margin: 0; }
 
