@@ -206,26 +206,6 @@ img {
 svg:not(:root) {
   overflow: hidden; }
 
-.btn-fill {
-  background-color: #21a295;
-  display: inline-block;
-  padding: 1.5em 2.5em;
-  color: #fff;
-  border: none; }
-
-.btn-fill:hover {
-  background-color: #29a6ba; }
-
-.btn-invert {
-  border: 2px solid #21a295;
-  color: #23b1a6;
-  padding: 1em 2.5em; }
-
-.btn-invert:hover {
-  background-color: #29a6ba;
-  padding: 1em 2.5em;
-  color: #fff; }
-
 h1,
 h2,
 h3,
@@ -316,19 +296,29 @@ hr {
   margin: 0;
   padding: 0; }
 
-.main-btn {
-  display: block;
-  width: 150px;
-  height: 50px;
-  background-color: #20a296;
+.btn-fill {
+  background-color: #21a295;
+  padding: 1.5em 2.5em;
   color: #fff;
-  padding-top: 12px;
-  font-weight: 300;
-  border-bottom: none; }
+  border: none; }
+
+.btn-fill:hover {
+  background-color: #29a6ba; }
+
+.btn-invert {
+  border: 2px solid #21a295;
+  color: #23b1a6;
+  padding: 1em 2.5em; }
+
+.btn-invert:hover {
+  background-color: #29a6ba;
+  padding: 1em 2.5em;
+  color: #fff; }
 
 .btn-certification {
-  margin: 0 auto;
-  margin-top: 43px; }
+  width: 170px;
+  height: 70px;
+  display: block; }
 
 .logo {
   border-bottom: 0;
@@ -698,13 +688,65 @@ hr {
   font-weight: bold;
   font-size: 1.5rem; }
 
+.lastest-post-wrap {
+  width: 90%;
+  margin: 0 auto; }
+  .lastest-post-wrap img {
+    width: 77%;
+    padding: 10px; }
+  .lastest-post-wrap h3,
+  .lastest-post-wrap h4 {
+    margin: 0; }
+  .lastest-post-wrap span {
+    color: #bf639f; }
+
+.lastest-post {
+  width: 48%;
+  float: left;
+  margin: 5px;
+  padding: 15px;
+  background-color: #F3F2F2; }
+  .lastest-post a {
+    border: none; }
+
+.certification__subtitle {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  padding-bottom: 40px; }
+
 .certification-wrap {
   width: 50%;
   margin: 0 auto;
   text-align: center; }
+  .certification-wrap p:nth-child(1) {
+    margin-bottom: 0; }
+  .certification-wrap a {
+    text-align: center; }
+  .certification-wrap h2 {
+    margin: 0; }
 
-.certification-bg {
-  background-color: #f3f1f2; }
+.certification-descrip {
+  margin: 50px 0; }
+  .certification-descrip p,
+  .certification-descrip li {
+    text-align: left; }
+  .certification-descrip p:nth-child(1) {
+    margin-bottom: 0; }
+
+.certification-details {
+  font-weight: 700;
+  font-size: 1.25rem; }
+
+.certification-info {
+  text-align: center; }
+  .certification-info p {
+    margin: 0;
+    text-align: center;
+    font-weight: 700; }
+
+.certification-required {
+  margin: 20px 0;
+  text-align: left; }
 
 .site-header {
   margin-bottom: 1.5rem;
