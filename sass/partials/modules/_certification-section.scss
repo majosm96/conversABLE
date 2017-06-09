@@ -57,8 +57,19 @@
     margin-top: 50px;
 }
 
+.certification-v2__subtitle {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
 .certification-wrap-v2 {
-    width: 33.33%;
-    padding: 0.625rem;
+    width: 35%;
+    padding: 2rem;
     float: left;
+    border-right: 1px solid $dark-gray;
+}
+
+.certification-wrap-v2:last-child {
+    border: none;
+    width: 30%;
 }
