@@ -251,6 +251,7 @@ hr {
 
 .btn--invert {
   background-color: #fff;
+  border: 2px solid #fff;
   color: #a5a5a5; }
   .btn--invert:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -486,6 +487,9 @@ hr {
 .icon-item--retreat:before {
   background-image: url(../img/icon-retreats.png); }
 
+.events-wrapper {
+  padding: 0; }
+
 .events-grid {
   border: 0.5rem solid #f3f2f2;
   display: inline;
@@ -523,6 +527,36 @@ hr {
   width: 33.33%; }
   .event-item_consulting ::before {
     background-image: url("../img/icon-consulting.png"); }
+
+.event-info {
+  font-size: 1.25rem;
+  margin-bottom: 6rem;
+  overflow: hidden; }
+  .event-info h3 {
+    margin-bottom: 6rem;
+    width: 50%; }
+
+.event--space {
+  margin: 0; }
+
+.event-content {
+  float: left;
+  width: 45%; }
+
+.event-sidebar {
+  float: right;
+  text-align: center;
+  width: 50%; }
+
+.event-row {
+  margin: 7.5rem auto 3rem; }
+
+.img--workshops {
+  border-left: 8px solid #21a295;
+  width: 80%; }
+
+.img-paypal {
+  width: 40%; }
 
 .testimonio {
   float: left;
@@ -580,6 +614,7 @@ hr {
   overflow: hidden; }
 
 .sevice-events {
+  margin-bottom: 3rem;
   overflow: hidden; }
 
 .service-info video,
