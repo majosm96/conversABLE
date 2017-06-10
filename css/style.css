@@ -231,6 +231,8 @@ hr {
 .btn {
   border: none;
   color: #fff;
+  cursor: pointer;
+  display: inline-block;
   font-size: 1rem;
   padding: 1.5rem 3rem; }
 
@@ -249,6 +251,7 @@ hr {
 
 .btn--invert {
   background-color: #fff;
+  border: 2px solid #fff;
   color: #a5a5a5; }
   .btn--invert:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -333,7 +336,7 @@ hr {
   float: left;
   width: 33%;
   text-align: center;
-  padding: 1rem; }
+  padding: 1.5rem; }
 
 .leads-grid__title {
   margin-bottom: 0; }
@@ -384,7 +387,7 @@ hr {
 
 .team-grid__info {
   background-color: #fff;
-  padding: 1rem; }
+  padding: 1.5rem; }
   .team-grid__info a {
     font-weight: 300; }
 
@@ -484,11 +487,15 @@ hr {
 .icon-item--retreat:before {
   background-image: url(../img/icon-retreats.png); }
 
+.events-wrapper {
+  padding: 0; }
+
 .events-grid {
-  border: .5rem solid #F3F2F2;
+  border: 0.5rem solid #f3f2f2;
   display: inline;
   float: left;
   padding: 1.5rem;
+  margin: .6rem;
   min-height: 300px;
   text-align: center; }
   .events-grid h4,
@@ -520,6 +527,36 @@ hr {
   width: 33.33%; }
   .event-item_consulting ::before {
     background-image: url("../img/icon-consulting.png"); }
+
+.event-info {
+  font-size: 1.25rem;
+  margin-bottom: 6rem;
+  overflow: hidden; }
+  .event-info h3 {
+    margin-bottom: 6rem;
+    width: 50%; }
+
+.event--space {
+  margin: 0; }
+
+.event-content {
+  float: left;
+  width: 45%; }
+
+.event-sidebar {
+  float: right;
+  text-align: center;
+  width: 50%; }
+
+.event-row {
+  margin: 7.5rem auto 3rem; }
+
+.img--workshops {
+  border-left: 8px solid #21a295;
+  width: 80%; }
+
+.img-paypal {
+  width: 40%; }
 
 .testimonio {
   float: left;
@@ -577,6 +614,7 @@ hr {
   overflow: hidden; }
 
 .sevice-events {
+  margin-bottom: 3rem;
   overflow: hidden; }
 
 .service-info video,
@@ -626,7 +664,7 @@ hr {
 .sticky-menu-item {
   border: none;
   display: inline-block;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
   width: 150px; }
 
@@ -696,14 +734,12 @@ hr {
 .certification__subtitle {
   font-size: 2.3rem;
   text-transform: uppercase;
-  padding-bottom: 40px; }
+  padding-bottom: 2.5rem; }
 
 .certification-wrap {
   width: 50%;
   margin: 0 auto;
   text-align: center; }
-  .certification-wrap p:nth-child(1) {
-    margin-bottom: 0; }
   .certification-wrap a {
     text-align: center; }
   .certification-wrap h2 {
@@ -711,15 +747,15 @@ hr {
 
 .certification-descrip {
   margin: 50px 0; }
-  .certification-descrip p,
-  .certification-descrip li {
+  .certification-descrip p {
     text-align: left; }
-  .certification-descrip p:nth-child(1) {
-    margin-bottom: 0; }
 
-.certification-details {
+.certification-important {
   font-weight: 700;
   font-size: 1.25rem; }
+
+.certification-details p {
+  margin: 0; }
 
 .certification-info {
   text-align: center; }
@@ -729,8 +765,17 @@ hr {
     font-weight: 700; }
 
 .certification-required {
-  margin: 20px 0;
-  text-align: left; }
+  list-style: none;
+  text-align: left;
+  padding: 0; }
+
+.certification-subscription {
+  margin-top: 50px; }
+
+.certification-wrap-v2 {
+  width: 33.33%;
+  padding: 0.625rem;
+  float: left; }
 
 .site-header {
   margin-bottom: 1.5rem;
@@ -807,7 +852,7 @@ hr {
     width: 100%; }
 
 .section-wrap {
-  padding: 9rem 3rem; }
+  padding: 6rem 3rem; }
 
 .section-wrap--intro {
   position: relative;
