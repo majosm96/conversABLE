@@ -4,6 +4,13 @@
     padding-bottom: 2.5rem;
 }
 
+.certification-v2__subtitle {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+}
+
+
 .certification-wrap {
     width: 50%;
     margin: 0 auto;
@@ -58,7 +65,12 @@
 }
 
 .certification-wrap-v2 {
-    width: 33.33%;
-    padding: 0.625rem;
+    width: 33%;
+    padding: 2rem;
     float: left;
+    border-right: 1px solid $dark-gray;
+}
+
+.certification-wrap-v2:last-child {
+        border: none;
 }
