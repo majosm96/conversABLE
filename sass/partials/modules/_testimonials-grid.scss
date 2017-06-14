@@ -37,14 +37,18 @@
     width: 100%;
 
     blockquote {
-        width: 80%;
+        width: 50%;
         margin: auto;
-        margin-bottom: 1rem;
+        margin-bottom: 3.5rem;
     }
 }
 
-.testimonio--resize__avatar {
+.testimonio__avatar--resize {
   margin-right: 20px;
   margin-top: 20px;
   max-width: 90px;
+}
+
+.testimonio__cite--resize {
+    margin-bottom: 2rem;
 }
