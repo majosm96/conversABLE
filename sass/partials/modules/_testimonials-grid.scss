@@ -29,6 +29,22 @@
   margin-bottom: 0;
 }
 
+.testimonio__person {
+    text-align: center;
+}
+
 .testimonio--resize {
     width: 100%;
+
+    blockquote {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.testimonio--resize__avatar {
+  margin-right: 20px;
+  margin-top: 20px;
+  max-width: 90px;
 }
