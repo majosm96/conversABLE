@@ -495,7 +495,6 @@ hr {
   display: inline;
   float: left;
   padding: 1.5rem;
-  margin: .6rem;
   min-height: 300px;
   text-align: center; }
   .events-grid h4,
@@ -582,6 +581,23 @@ hr {
 .testimonio__cite {
   font-weight: bold;
   margin-bottom: 0; }
+
+.testimonio__person {
+  text-align: center; }
+
+.testimonio--resize {
+  width: 100%; }
+  .testimonio--resize blockquote {
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0 3.5rem 0; }
+
+.testimonio__avatar--resize {
+  margin: 1.5rem 0 2rem 0;
+  max-width: 90px; }
+
+.testimonio__cite--resize {
+  margin-bottom: 2rem; }
 
 .hello-friend {
   background: url(../img/bg-footer.jpg) repeat-x;
@@ -736,6 +752,11 @@ hr {
   text-transform: uppercase;
   padding-bottom: 2.5rem; }
 
+.certification-v2__subtitle {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 2.5rem; }
+
 .certification-wrap {
   width: 50%;
   margin: 0 auto;
@@ -773,9 +794,13 @@ hr {
   margin-top: 50px; }
 
 .certification-wrap-v2 {
-  width: 33.33%;
-  padding: 0.625rem;
-  float: left; }
+  width: 33%;
+  padding: 2rem;
+  float: left;
+  border-right: 1px solid #313233; }
+
+.certification-wrap-v2:last-child {
+  border: none; }
 
 .site-header {
   margin-bottom: 1.5rem;
