@@ -648,19 +648,42 @@ hr {
 .testimonio__person {
   text-align: center; }
 
-.testimonio--resize {
-  width: 100%; }
-  .testimonio--resize blockquote {
-    width: 50%;
+.testimonio-v2 {
+  margin: 0 auto;
+  padding: 5rem;
+  vertical-align: top;
+  border-bottom: 0.0625rem solid #a9aaad;
+  min-height: 290px;
+  width: 70%; }
+  .testimonio-v2 blockquote {
     margin: auto;
     padding: 2rem 0 3.5rem 0; }
 
-.testimonio__avatar--resize {
-  margin: 1.5rem 0 2rem 0;
+.testimonio-v2:last-child {
+  border: none; }
+
+.testimonio-v2__description {
+  margin: auto;
+  font-size: 1.3rem;
+  position: relative;
+  z-index: 1; }
+
+.testimonio-v2__img-quote {
+  z-index: -1;
+  position: absolute;
+  left: -135px;
+  top: -52px; }
+
+.testimonio-v2__avatar {
+  margin-top: 1.5rem;
   max-width: 90px; }
 
-.testimonio__cite--resize {
-  margin-bottom: 2rem; }
+.testimonio-v2__cite {
+  margin-bottom: 2rem;
+  font-weight: bold; }
+
+.testimonio-v2__person {
+  text-align: center; }
 
 .hello-friend {
   background: url(../img/bg-footer.jpg) repeat-x;
