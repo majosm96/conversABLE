@@ -258,6 +258,69 @@ hr {
     border: 2px solid #fff;
     color: #fff; }
 
+.blog-tag {
+  background-color: #474747;
+  color: #fff;
+  font-weight: bold;
+  width: 20%;
+  padding: 0.5rem 6rem 0.5rem 0.75rem; }
+
+.blog-subtitle {
+  font-family: "Nunito", sans-serif;
+  color: #21a295;
+  margin: 0; }
+
+.blog-title {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0; }
+
+.blog-autor {
+  font-weight: bold;
+  color: #A5A5A5; }
+
+.blog-img {
+  float: left;
+  margin-right: 3rem;
+  width: 20%; }
+
+.blog-articles {
+  margin-bottom: 3rem;
+  overflow: hidden; }
+
+.row-center {
+  text-align: center; }
+
+.blog-links {
+  font-size: 2rem; }
+
+.blog-services-grid {
+  background-position: center;
+  background-size: cover;
+  border: 1rem solid #f3f2f2;
+  display: inline;
+  float: left;
+  margin: 0 1rem 0;
+  min-width: 30%;
+  min-height: 300px;
+  padding: 1.5rem;
+  text-align: center; }
+
+.blog-item {
+  margin: 20% auto; }
+
+.blog-services-grid--worshops {
+  background-image: url(../img/workshops-grid.jpg);
+  border-color: #21a295; }
+
+.blog-services-grid--retreats {
+  background-image: url(../img/retreats-grid.jpg);
+  border-color: #5f9fc0; }
+
+.blog-services-grid--coaching {
+  background-image: url(../img/coaching-grid.jpg);
+  border-color: #f5978d; }
+
 .logo {
   border-bottom: 0;
   float: left; }
