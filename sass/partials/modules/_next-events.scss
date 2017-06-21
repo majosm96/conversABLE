@@ -1,0 +1,10 @@
+.next-events {
+    margin-bottom: 6rem;
+    overflow: hidden;
+
+    &>img {
+        float: left;
+        margin-right: 3rem;
+        width: 25%;
+    }
+}

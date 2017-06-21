@@ -9,20 +9,19 @@
 }
 
 .sevice-events {
-	margin-bottom: 3rem;
 	overflow: hidden;
-}
+
+	&>img {
+		float: left;
+		margin-right: 3rem;
+		width: 25%;
+		}
+	}
 
 .service-info video, 
 .service-info img {
 	float: right;
 	width: 50%;
-}
-
-.sevice-events img {
-	float: left;
-	margin-right: 3rem;
-	width: 25%;
 }
 
 .sevice-events-content {
