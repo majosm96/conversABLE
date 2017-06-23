@@ -594,31 +594,37 @@ hr {
   font-size: 1.25rem;
   margin-bottom: 6rem;
   overflow: hidden; }
-  .event-info h3 {
-    margin-bottom: 6rem;
-    width: 50%; }
 
 .event--space {
   margin: 0; }
 
 .event-content {
   float: left;
-  width: 45%; }
+  width: 48%; }
+  .event-content h3 {
+    margin-bottom: 6rem; }
 
 .event-sidebar {
   float: right;
   text-align: center;
-  width: 50%; }
-
-.event-row {
-  margin: 7.5rem auto 3rem; }
+  width: 45%; }
 
 .img--workshops {
   border-left: 8px solid #21a295;
-  width: 80%; }
+  width: 100%; }
 
 .img-paypal {
-  width: 40%; }
+  margin-top: 1rem;
+  width: 12.9%; }
+
+.img-paypal--width {
+  width: 28%; }
+
+.accounts {
+  margin: 6rem 0;
+  text-align: initial; }
+  .accounts img {
+    width: 70%; }
 
 .testimonio {
   float: left;
@@ -693,18 +699,16 @@ hr {
   overflow: hidden; }
 
 .sevice-events {
-  margin-bottom: 3rem;
   overflow: hidden; }
+  .sevice-events > img {
+    float: left;
+    margin-right: 3rem;
+    width: 25%; }
 
 .service-info video,
 .service-info img {
   float: right;
   width: 50%; }
-
-.sevice-events img {
-  float: left;
-  margin-right: 3rem;
-  width: 25%; }
 
 .sevice-events-content {
   float: left;
@@ -864,6 +868,14 @@ hr {
 
 .certification-wrap-v2:last-child {
   border: none; }
+
+.next-events {
+  margin-bottom: 6rem;
+  overflow: hidden; }
+  .next-events > img {
+    float: left;
+    margin-right: 3rem;
+    width: 25%; }
 
 .site-header {
   margin-bottom: 1.5rem;
