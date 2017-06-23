@@ -2,26 +2,20 @@ form {
   background-color: #999999;
   display: inline-block;
   width: 24rem;
-
-   h3 {
-    
-  }
-
 }
 
+label,
 input,
 textarea,
 select, {
   display: block;
-  font: 1.25em/1.5 $font-family-base;
+  font: 1em/1.5 $font-family-base;
   margin-bottom: $space-small;
   border: solid 1px #000000;
 }
 
 label {
-  display: block;
-  font: bold 1.25em/1.5 $font-family-base;
-  margin-bottom: 0.75rem;
+  font: bold 1em/1.25 $font-family-base;
 }
 
 [type~=checkbox] {
