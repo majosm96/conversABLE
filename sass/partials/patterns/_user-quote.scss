@@ -27,6 +27,7 @@
 
 .user-quote__avatar {
   display: block;
-  margin-top: $space-out-medium 0 auto;
+  margin: 0 auto;
+  margin-top: $space-out-medium;
   max-width: 90px;
 }
