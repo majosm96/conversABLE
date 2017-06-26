@@ -6,17 +6,17 @@
   width: 70%;
   background: url(../img/bigQuote.png) no-repeat;
   background-position: top-left;
-  margin-top: $space-base;
+  margin-top: $space-out-small;
 
   p {
-    margin-bottom: $space-medium;
+    margin-bottom: $space-out-medium;
     font-size: 1.3rem;
   }
 
 }
 
 .user-quote:last-child{
-  border: none;
+  border: 0;
 }
 
 .user-quote__citation {
@@ -27,7 +27,6 @@
 
 .user-quote__avatar {
   display: block;
-  margin: 0 auto;
-  margin-top: $space-medium;
+  margin-top: $space-out-medium 0 auto;
   max-width: 90px;
 }
