@@ -1,7 +1,5 @@
 form {
-  background-color: #999999;
-  display: inline-block;
-  width: 24rem;
+  width: 384px;
 }
 
 label,
@@ -11,11 +9,11 @@ select, {
   display: block;
   font: 1em/1.5 $font-family-base;
   margin-bottom: $space-small;
-  border: solid 1px #000000;
+  border: solid 1px #000;
 }
 
 label {
-  font: bold 1em/1.25 $font-family-base;
+  font-weight: bold
 }
 
 [type~=checkbox] {
