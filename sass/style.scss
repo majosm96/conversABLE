@@ -1,6 +1,7 @@
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/elements/base";
+@import "partials/elements/form";
 @import "partials/elements/headings";
 @import "partials/elements/type";
 @import "partials/elements/lists";
@@ -29,6 +30,7 @@
 @import "partials/modules/lastest-posts";
 @import "partials/modules/certification-section";
 @import "partials/modules/next-events";
+@import "partials/modules/modal-fake";
 @import "partials/layout/header";
 @import "partials/layout/page";
 @import "partials/layout/footer";
