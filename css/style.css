@@ -280,6 +280,32 @@ hr {
     border: 2px solid #fff;
     color: #fff; }
 
+.user-quote {
+  margin: 0 auto;
+  padding: 7.5rem;
+  vertical-align: top;
+  border-bottom: .0625rem solid #a9aaad;
+  width: 70%;
+  background: url(../img/bigQuote.png) no-repeat;
+  margin-top: 1.5rem; }
+  .user-quote p {
+    margin-bottom: 3rem;
+    font-size: 1.3rem; }
+
+.user-quote:last-child {
+  border: 0; }
+
+.user-quote__citation {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center; }
+
+.user-quote__avatar {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+  max-width: 90px; }
+
 .blog-tag {
   background-color: #474747;
   color: #fff;
@@ -306,7 +332,7 @@ hr {
   width: 20%; }
 
 .blog-articles {
-  margin-bottom: 3rem;
+  margin-bottom: 9rem;
   overflow: hidden; }
 
 .row-center {
@@ -409,10 +435,6 @@ hr {
 .main-menu__items--inverted {
   color: #fff; }
 
-.leads-grid {
-  margin: 0 auto;
-  max-width: 1400px; }
-
 .leads-grid__wrap {
   overflow: hidden; }
 
@@ -435,10 +457,6 @@ hr {
 .leads-grid__subt,
 .leads-grid__desc {
   margin-bottom: .5rem; }
-
-.team-grid {
-  margin: 0 auto;
-  max-width: 1400px; }
 
 .team-grid__wrap {
   display: flex;
@@ -628,7 +646,7 @@ hr {
 .event-sidebar {
   float: right;
   text-align: center;
-  width: 45%; }
+  width: 35%; }
 
 .img--workshops {
   border-left: 8px solid #21a295;
@@ -636,7 +654,7 @@ hr {
 
 .img-paypal {
   margin-top: 1rem;
-  width: 12.9%; }
+  width: 85%; }
 
 .img-paypal--width {
   width: 28%; }
@@ -646,6 +664,10 @@ hr {
   text-align: initial; }
   .accounts img {
     width: 70%; }
+
+.buy-content {
+  float: right;
+  width: 17%; }
 
 .testimonio {
   float: left;
@@ -674,20 +696,6 @@ hr {
 
 .testimonio__person {
   text-align: center; }
-
-.testimonio--resize {
-  width: 100%; }
-  .testimonio--resize blockquote {
-    width: 50%;
-    margin: auto;
-    padding: 2rem 0 3.5rem 0; }
-
-.testimonio__avatar--resize {
-  margin: 1.5rem 0 2rem 0;
-  max-width: 90px; }
-
-.testimonio__cite--resize {
-  margin-bottom: 2rem; }
 
 .hello-friend {
   background: url(../img/bg-footer.jpg) repeat-x;
@@ -891,7 +899,7 @@ hr {
   border: none; }
 
 .next-events {
-  margin-bottom: 6rem;
+  margin-bottom: 9rem;
   overflow: hidden; }
   .next-events > img {
     float: left;
