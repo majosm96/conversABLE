@@ -73,15 +73,15 @@ textarea {
   resize: none; }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 0.67em 0; }
 
 h2 {
-  font-size: 2.5rem; }
+  font-size: 2rem; }
 
 h3,
 .h-h3 {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 h1,
 h2,
@@ -98,7 +98,7 @@ h4 {
     content: "\2014\2014";
     color: #a6357f;
     letter-spacing: -3px;
-    letter-spacing: -.3rem;
+    letter-spacing: -.25rem;
     padding: 0 .8rem 0 .4rem; }
 
 .h-section {
@@ -178,7 +178,7 @@ q {
   font-style: italic; }
 
 p {
-  font-size: 1.25rem; }
+  font-size: 1.125rem; }
 
 a {
   background-color: transparent;
@@ -248,7 +248,7 @@ pre,
 table,
 fieldset,
 hr {
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1.125rem; }
 
 .menu {
   margin: 0;
@@ -286,14 +286,14 @@ hr {
 
 .user-quote {
   margin: 0 auto;
-  padding: 7.5rem;
+  padding: 4.5rem;
   vertical-align: top;
   border-bottom: .0625rem solid #a9aaad;
   width: 70%;
   background: url(../img/bigQuote.png) no-repeat;
-  margin-top: 1.5rem; }
+  margin-top: 1.125rem; }
   .user-quote p {
-    margin-bottom: 3rem;
+    margin-bottom: 2.25rem;
     font-size: 1.3rem; }
 
 .user-quote:last-child {
@@ -307,14 +307,14 @@ hr {
 .user-quote__avatar {
   display: block;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 2.25rem;
   max-width: 90px; }
 
 .blog-article p {
   margin-top: 1.5rem;
-  padding: 1.5rem; }
+  padding: 1.125rem; }
 .blog-article img {
-  padding: 1.5rem; }
+  padding: 1.125rem; }
 
 .article__image-right {
   float: right;
@@ -332,7 +332,7 @@ hr {
   color: #fff;
   font-size: 1.25rem;
   width: 20%;
-  padding: 0.5rem 6rem 0.5rem 0.75rem; }
+  padding: 0.375rem 3.375rem 0.375rem 0.5625rem; }
 
 .blog-subtitle {
   color: #21a295;
@@ -355,6 +355,8 @@ hr {
 .blog-articles {
   margin-bottom: 9rem;
   overflow: hidden; }
+  .blog-articles a {
+    font-weight: 300; }
 
 .row-center {
   text-align: center; }
@@ -371,7 +373,7 @@ hr {
   margin: 0 1rem 0;
   min-width: 30%;
   min-height: 300px;
-  padding: 1.5rem;
+  padding: 1.125rem;
   text-align: center; }
 
 .blog-item {
@@ -400,7 +402,7 @@ hr {
   margin-bottom: 0; }
 
 .intro-leading {
-  font-size: 1.5rem; }
+  font-size: 1.125rem; }
 
 .helper-nav {
   padding: .25em 1rem;
@@ -463,7 +465,7 @@ hr {
   float: left;
   width: 33%;
   text-align: center;
-  padding: 1.5rem; }
+  padding: 1.125rem; }
 
 .leads-grid__title {
   margin-bottom: 0; }
@@ -489,7 +491,7 @@ hr {
   position: relative;
   background-color: #f5f5f6;
   width: 50%;
-  padding: 1.5rem;
+  padding: 1.125rem;
   flex-grow: 1; }
   .team-grid__item:before, .team-grid__item:after {
     content: " ";
@@ -510,7 +512,7 @@ hr {
 
 .team-grid__info {
   background-color: #fff;
-  padding: 1.5rem; }
+  padding: 1.125rem; }
   .team-grid__info a {
     font-weight: 300; }
 
@@ -558,7 +560,7 @@ hr {
   color: #fff;
   display: block;
   height: 100%;
-  padding: 3rem 6rem;
+  padding: 2.25rem 3.375rem;
   text-decoration: none;
   font-weight: 300; }
 
@@ -620,7 +622,7 @@ hr {
   border: 0.5rem solid #f3f2f2;
   display: inline;
   float: left;
-  padding: 1.5rem;
+  padding: 1.125rem;
   min-height: 300px;
   text-align: center; }
   .events-grid h4,
@@ -696,7 +698,7 @@ hr {
 .testimonio {
   float: left;
   display: inline-block;
-  padding: 1.5rem;
+  padding: 1.125rem;
   vertical-align: top;
   border: .0625rem solid #E2EBF1;
   min-height: 290px;
@@ -723,7 +725,7 @@ hr {
 
 .hello-friend {
   left: 50%;
-  padding: 1.5rem 0;
+  padding: 1.125rem 0;
   position: relative;
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
@@ -738,7 +740,7 @@ hr {
 .hello-friend_desc {
   color: #fff;
   float: left;
-  padding: 0 1.5rem; }
+  padding: 0 1.125rem; }
 
 .hello-friend__title {
   color: #fff;
@@ -810,7 +812,7 @@ hr {
 .sticky-menu-item {
   border: none;
   display: inline-block;
-  padding: 1.5rem;
+  padding: 1.125rem;
   text-align: center;
   width: 150px; }
 
@@ -887,6 +889,9 @@ hr {
   text-transform: uppercase;
   padding-bottom: 2.5rem; }
 
+.certification-v2__subtitle--space-out {
+  margin: 3.375rem 0 5.625rem 0; }
+
 .certification-wrap {
   width: 50%;
   margin: 0 auto;
@@ -961,7 +966,7 @@ hr {
   z-index: 12; }
 
 .site-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.125rem;
   position: relative;
   z-index: 5; }
 
@@ -1044,7 +1049,7 @@ hr {
     width: 100%; }
 
 .section-wrap {
-  padding: 6rem 3rem; }
+  padding: 3.375rem 2.25rem; }
 
 .section-wrap--intro {
   position: relative;
@@ -1055,8 +1060,8 @@ hr {
   text-align: center; }
 
 .section-wrap--tight {
-  padding-bottom: 3rem;
-  padding-top: 3rem; }
+  padding-bottom: 2.25rem;
+  padding-top: 2.25rem; }
 
 .wrapper {
   background-color: #fff; }
@@ -1072,6 +1077,6 @@ hr {
 .contact-footer {
   background-color: #000;
   margin-top: -55px;
-  padding: 3rem 0; }
+  padding: 2.25rem 0; }
 
 /*# sourceMappingURL=style.css.map */
