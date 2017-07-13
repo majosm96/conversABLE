@@ -53,16 +53,16 @@ template {
 form {
   width: 384px; }
 
-label,
 input,
 textarea,
 select {
-  display: block;
   font: 1em/1.5 "Nunito", sans-serif;
   margin-bottom: 1.5rem;
   border: solid 1px #000; }
 
 label {
+  border: none;
+  display: block;
   font-weight: bold; }
 
 [type~=checkbox] {
@@ -199,6 +199,10 @@ a:focus {
   border: 0;
   text-decoration: none; }
 
+.white-link {
+  color: #fff;
+  -webkit-tap-highlight-color: white; }
+
 th,
 td {
   padding: 5px 10px; }
@@ -305,6 +309,23 @@ hr {
   margin: 0 auto;
   margin-top: 3rem;
   max-width: 90px; }
+
+.blog-article p {
+  margin-top: 1.5rem;
+  padding: 1.5rem; }
+.blog-article img {
+  padding: 1.5rem; }
+
+.article__image-right {
+  float: right;
+  width: 50%; }
+
+.article__image-left {
+  float: left;
+  width: 50%; }
+
+.article__main-image {
+  width: 100%; }
 
 .blog-tag {
   background-color: #474747;
@@ -698,12 +719,12 @@ hr {
   text-align: center; }
 
 .hello-friend {
-  background: url(../img/bg-footer.jpg) repeat-x;
-  padding: 3rem 0; }
-
-.hello-friend__wrap {
-  max-width: 1200px;
-  margin: 0 auto; }
+  left: 50%;
+  padding: 1.5rem 0;
+  position: relative;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0); }
 
 .hello-friend__img {
   float: left;
@@ -713,11 +734,21 @@ hr {
 
 .hello-friend_desc {
   color: #fff;
-  float: right; }
+  float: left;
+  padding: 0 1.5rem; }
 
 .hello-friend__title {
   color: #fff;
   margin-bottom: 0; }
+
+.mailchimp-form {
+  float: left; }
+
+.contact-media {
+  float: left; }
+  .contact-media img {
+    width: 60px;
+    padding: 5px; }
 
 .service-content {
   float: left;
@@ -1028,7 +1059,7 @@ hr {
   background-color: #fff; }
 
 .site-footer {
-  background-color: #000; }
+  background: url(../img/bg-footer.jpg) repeat-x; }
   .site-footer:before, .site-footer:after {
     content: " ";
     display: table; }
@@ -1036,6 +1067,8 @@ hr {
     clear: both; }
 
 .contact-footer {
-  padding: 1.5rem; }
+  background-color: #000;
+  margin-top: -55px;
+  padding: 3rem 0; }
 
 /*# sourceMappingURL=style.css.map */
