@@ -522,8 +522,11 @@ hr {
   margin-bottom: 0;
   text-transform: uppercase; }
 
-.team-grid__desc p {
-  font-size: 1rem; }
+.team-grid__desc {
+  float: right;
+  width: 54%; }
+  .team-grid__desc p {
+    font-size: 1rem; }
 
 .team-grid__subt {
   color: #777;
