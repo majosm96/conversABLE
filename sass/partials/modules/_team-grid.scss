@@ -1,8 +1,3 @@
-.team-grid {
-  margin: 0 auto;
-  max-width: 1400px;
-}
-
 .team-grid__wrap {
   display: flex;
   flex-flow: row wrap;
@@ -54,6 +49,8 @@
 }
 
 .team-grid__desc {
+  float: right;
+  width: 54%;
   p {
     font-size: 1rem;
   }

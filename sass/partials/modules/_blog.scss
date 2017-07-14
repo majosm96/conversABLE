@@ -29,8 +29,11 @@
 }
 
 .blog-articles {
-    margin-bottom: 3rem;
+    margin-bottom: 9rem;
     overflow: hidden;
+    a {
+      font-weight: $font-family-base-normal-weight;
+    }
 }
 
 .row-center {
